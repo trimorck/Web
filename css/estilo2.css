@@ -1,0 +1,44 @@
+#uno{
+    background-color: #f00;
+}
+
+#dos{
+    background-color: #0f3;
+}
+
+#tres{
+    background-color: #444;
+}
+
+#cuatro{
+    background-color: #ff2;
+}
+
+#uno, #dos, #tres, #cuatro{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+    float: right;
+    border: 2px solid black;
+
+}
+
+h3{
+    color: #fff;
+    font-size: 55px;
+    text-align: center;
+    /* border: 5px solid; */
+}
+
+body{
+    background-color: #b6d6f2;
+    background-image: url('../image/Satoru_Gojo_arrives_on_the_battlefield_29.webp');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
